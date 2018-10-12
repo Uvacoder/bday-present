@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(255, 236, 236);
+  font-family: 'Nunito', sans-serif
+}
+
+h1 {
+  font-weight: bold;
+}
+
+#headline {
+  color: rgb(86, 86, 255);
+  font-size: 4rem;
+  text-align: center;
+  animation: hover 2s ease-in-out infinite;
+  width: 100%;
+}
+
+@media(max-width: 760px) {
+  #headline {
+    font-size: 3rem; 
+  }
+}
+
+@keyframes hover {
+  0%, 100% {
+    transform: scale(1)
+  }
+
+  50% {
+    transform: scale(1.05)
+  }
+}
+
+#animation {
+  width: 100%;
+  text-align: center;
+}
+
+.main-container {
+  margin: 0 auto;
+  max-width: 1020px;
+}
