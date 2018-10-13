@@ -43,6 +43,10 @@ h1 {
   max-height: 100vh;
 }
 
+#click-to-start {
+  text-align: center;
+}
+
 .main-container {
   margin: 0 auto;
   max-width: 1020px;
