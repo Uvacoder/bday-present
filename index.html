@@ -14,8 +14,18 @@
 
   <h1 id="headline">We Love You Grandma Sheila!</h1>
   <div id="animation-container">
-    <video id="animation" src="video.mp4" playsinline autoplay muted loop />
+    <video id="animation" src="video.mp4" playsinline muted loop />
+  </div>
+
+  <div class="footer">
+    <div id="message">Made with <div id="heart">❤️</div>by Cam and Julia!</div>
   </div>
   </div>
 </body>
+<script>
+  document.getElementById('animation-container').onclick = function (){
+    document.getElementById('animation').play();
+    document.getElementById('animation').scrollIntoView();
+  };
+</script>
 </html>
