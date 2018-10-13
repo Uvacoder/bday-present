@@ -1,6 +1,9 @@
 body {
   background-color: rgb(255, 236, 236);
-  font-family: 'Nunito', sans-serif
+  font-family: 'Nunito', sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
 }
 
 h1 {
@@ -17,7 +20,7 @@ h1 {
 
 @media(max-width: 760px) {
   #headline {
-    font-size: 3rem; 
+    font-size: 2rem; 
   }
 }
 
@@ -31,9 +34,13 @@ h1 {
   }
 }
 
+#animation-container {
+  text-align: center;
+}
+
 #animation {
   width: 100%;
-  text-align: center;
+  max-height: 100vh;
 }
 
 .main-container {
